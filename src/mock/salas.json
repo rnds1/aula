@@ -1,0 +1,247 @@
+[
+  {
+    "titulo": "A",
+    "salas": [
+      {
+        "numero": 101,
+        "internet": false
+      },
+      {
+        "numero": 102,
+        "internet": true
+      },
+      {
+        "numero": 103,
+        "internet": true
+      },
+      {
+        "numero": 104,
+        "internet": true
+      },
+      {
+        "numero": 105,
+        "internet": true
+      },
+      {
+        "numero": 106,
+        "internet": true
+      },
+      {
+        "numero": 107,
+        "internet": true
+      },
+      {
+        "numero": 108,
+        "internet": true
+      },
+      {
+        "numero": 109,
+        "internet": true
+      },
+      {
+        "numero": 110,
+        "internet": true
+      },
+      {
+        "numero": 111,
+        "internet": true
+      }
+    ]
+  },
+  {
+    "titulo": "E",
+    "salas": [
+      {
+        "numero": 101,
+        "internet": false
+      },
+      {
+        "numero": 102,
+        "internet": true
+      },
+      {
+        "numero": 103,
+        "internet": true
+      },
+      {
+        "numero": 104,
+        "internet": true
+      },
+      {
+        "numero": 105,
+        "internet": true
+      },
+      {
+        "numero": 106,
+        "internet": true
+      },
+      {
+        "numero": 107,
+        "internet": true
+      },
+      {
+        "numero": 108,
+        "internet": true
+      },
+      {
+        "numero": 109,
+        "internet": true
+      },
+      {
+        "numero": 110,
+        "internet": true
+      },
+      {
+        "numero": 111,
+        "internet": true
+      }
+    ]
+  },
+  {
+    "titulo": "C",
+    "salas": [
+      {
+        "numero": 101,
+        "internet": false
+      },
+      {
+        "numero": 102,
+        "internet": true
+      },
+      {
+        "numero": 103,
+        "internet": true
+      },
+      {
+        "numero": 104,
+        "internet": true
+      },
+      {
+        "numero": 105,
+        "internet": true
+      },
+      {
+        "numero": 106,
+        "internet": true
+      },
+      {
+        "numero": 107,
+        "internet": true
+      },
+      {
+        "numero": 108,
+        "internet": true
+      },
+      {
+        "numero": 109,
+        "internet": true
+      },
+      {
+        "numero": 110,
+        "internet": true
+      },
+      {
+        "numero": 111,
+        "internet": true
+      }
+    ]
+  },
+  {
+    "titulo": "D",
+    "salas": [
+      {
+        "numero": 101,
+        "internet": false
+      },
+      {
+        "numero": 102,
+        "internet": true
+      },
+      {
+        "numero": 103,
+        "internet": true
+      },
+      {
+        "numero": 104,
+        "internet": true
+      },
+      {
+        "numero": 105,
+        "internet": true
+      },
+      {
+        "numero": 106,
+        "internet": true
+      },
+      {
+        "numero": 107,
+        "internet": true
+      },
+      {
+        "numero": 108,
+        "internet": true
+      },
+      {
+        "numero": 109,
+        "internet": true
+      },
+      {
+        "numero": 110,
+        "internet": true
+      },
+      {
+        "numero": 111,
+        "internet": true
+      }
+    ]
+  },
+  {
+    "titulo": "F",
+    "salas": [
+      {
+        "numero": 101,
+        "internet": false
+      },
+      {
+        "numero": 102,
+        "internet": true
+      },
+      {
+        "numero": 103,
+        "internet": true
+      },
+      {
+        "numero": 104,
+        "internet": true
+      },
+      {
+        "numero": 105,
+        "internet": true
+      },
+      {
+        "numero": 106,
+        "internet": true
+      },
+      {
+        "numero": 107,
+        "internet": true
+      },
+      {
+        "numero": 108,
+        "internet": true
+      },
+      {
+        "numero": 109,
+        "internet": true
+      },
+      {
+        "numero": 110,
+        "internet": true
+      },
+      {
+        "numero": 111,
+        "internet": true
+      }
+    ]
+  }
+]
