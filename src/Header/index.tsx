@@ -1,9 +1,7 @@
-
-
 const Header = () => {
   return (
     <header>
-      <nav>
+      <nav className="header">
         <span>Home</span>
         <span>About</span>
       </nav>
