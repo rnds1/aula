@@ -1,56 +1,20 @@
-
 import Corredor from "./components/Corredor";
 import Footer from "./footer";
 import Header from "./Header";
+import corredores from "./mock/salas.json";
 
 function App() {
-  const corredores = [
-    {
-      titulo: "A",
-      salas: [
-        {
-          numero: 101,
-          internet: false,
-        },
-        {
-          numero: 102,
-          internet: true,
-        },
-        {
-          numero: 102,
-          internet: true,
-        },
-        {
-          numero: 102,
-          internet: true,
-        },
-      ],
-    },
-    {
-      titulo: "B",
-      salas: [
-        {
-          numero: 101,
-          internet: false,
-        },
-      ],
-    },
-    {
-      titulo: "C",
-      salas: [],
-    },
-  ];
+  return (
+    <main className="mainapp">
+      <Header />
+      <div className="corredores">
+        {corredores.map((e) => (
+          <Corredor titulo={e.titulo} salas={e.salas} />
+        ))}
+      </div>
 
-  return (<>
-    <Header />
-    <div className="corredores">
-      {corredores.map((e) => (
-        <Corredor titulo={e.titulo} salas={e.salas} />
-      ))}
-    </div>
-
-    <Footer/>
-    </>
+      <Footer />
+  </main>
   );
 }
 

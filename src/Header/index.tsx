@@ -2,8 +2,8 @@ const Header = () => {
   return (
     <header>
       <nav className="header">
-        <span>Home</span>
-        <span>About</span>
+        <span className="hi">Home</span>
+        <span className="hi">About</span>
       </nav>
     </header>
   );
