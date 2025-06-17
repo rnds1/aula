@@ -1,21 +1,21 @@
-import Corredor from "./components/Corredor";
-import Footer from "./footer";
-import Header from "./Header";
-import corredores from "./mock/salas.json";
+
+
+
+import Dados from './Components/backend/Dados'
+
+
+
 
 function App() {
-  return (
-    <main className="mainapp">
-      <Header />
-      <div className="corredores">
-        {corredores.map((e) => (
-          <Corredor titulo={e.titulo} salas={e.salas} />
-        ))}
-      </div>
 
-      <Footer />
-  </main>
-  );
+  return (
+    <>
+    
+    
+      Hello Worlds
+      <Dados />
+    </>
+  )
 }
 
-export default App;
+export default App
