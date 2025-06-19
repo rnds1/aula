@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 
 import BlocoA from "../BlocoA";
 
-
 type Dado = {
   id: number;
   sala: string;
@@ -19,7 +18,7 @@ const Dados = () => {
     const PegarDados = async () => {
       try {
         setLoading(true);
-        const response = await axios.get("http://172.17.1.215/Salas/back/");
+        const response = await axios.get("http://localhost/Salas/back/");
         setDados(response.data);
       } catch {
         setEr(true);
@@ -30,9 +29,16 @@ const Dados = () => {
     PegarDados();
   }, []);
 
-  if (loading) return <>Carregando.....</>;
-  if(er) return <><div className=" online sala"><h1>Não foi possivel carregar</h1></div></>
-  if (!er && !loading && dados) return <BlocoA listaDeDados={dados}/>
-}
+  if (loading) return <div className="sala">Carregando.....</div>;
+  if (er)
+    return (
+      <>
+        <div className=" online sala">
+          <h1>Não foi possivel carregar</h1>
+        </div>
+      </>
+    );
+  if (!er && !loading && dados) return <BlocoA listaDeDados={dados} />;
+};
 
 export default Dados;
